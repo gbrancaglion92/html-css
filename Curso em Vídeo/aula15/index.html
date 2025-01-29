@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 30px;
+        }
+        nav {
+            background-color: rgb(107, 107, 107);
+            padding: 3px;
+            box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.322);
+
+        }
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+
+        }
+        nav > a:hover {
+            text-decoration: underline;
+        }
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 30px;
+            border-radius: 20px 0;
+        }
+   
+        article {
+            background-color: lightgray;           
+            border-bottom-right-radius: 10px;            
+        }
+        article > aside {
+            background-color: rgb(150, 150, 150);
+            border-bottom-right-radius: 10px;
+        }
+        #artigo_main {
+            margin: -30px 10px 10px 10px;
+        }
+        section {
+            display: inline-block;
+            margin: 10px;
+        }
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 5px;
+        }
+        footer > p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <p>Section 1</p>
+        </section>
+        <section>
+            <p>Section 2</p>
+        </section>
+        <section id="artigo_main">
+            <article>
+                <h2>Título article</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis unde, repellat ipsam vitae optio alias odio totam cumque eius, voluptatum, culpa repudiandae. Quasi, repellat eos! Laudantium minus non minima modi!</p>
+                    <aside>Artigo escrito por Marta</aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por X</p>
+    </footer>
+</body>
+</html>

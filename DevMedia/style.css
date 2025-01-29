@@ -1,0 +1,58 @@
+* {
+    font-family: Tahoma;
+    text-align: center;
+    margin: 0;
+}
+
+p {
+    margin: 10px auto; /* Corrigido */
+    width: 980px;
+    text-align: justify !important; /* Força a justificação */
+    font-size: 18px;
+    line-height: 28px;
+    padding: 50px; /* Reduzi o padding para evitar problemas */
+}
+
+header {
+    padding: 30px;
+    background-color: #afddfb;
+}
+
+.logo_sobre {
+    width: 100px;
+    text-align: center;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+}
+
+li, a {
+    margin-right: 20px;
+    color: black;
+}
+
+img {
+    width: 70%;
+    margin-top: 10px;
+    padding: 30px;
+}
+
+.destaque_azul {
+    color: #1d80c1;
+}
+
+.secao_azul {
+    background-color: #afddfb;
+    padding: 100px;
+}
+
+.secao_azul_escuro {
+    background-color: #1d80c1;
+    padding: 100px;
+}
+
