@@ -1,0 +1,72 @@
+body {
+    color: #3C184E;
+    font-family: sans-serif;
+}
+.topo {
+    background-image: url(img/banner-topo.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}
+
+.topo_logo img {
+    width: 50px;
+    display: flex;
+}
+
+.topo_logo h1 {
+    font-size: 35px;
+    font-weight: 700px;
+    margin: 10px 0 0 15px ;
+}
+
+.topo_logo h2 {
+    font-size: 14px;
+    margin: 0 0 0 15px;
+}
+
+.topo_texto p {
+    max-width: 1024px;
+    border-radius: 10px;
+    padding: 40px;
+    margin: 70px auto 0;
+    background-color: #ffffffc4;
+    box-shadow: 0 8px 32px #1f26875e;
+}
+
+.servicos {
+    text-align: center;
+}
+
+ul {
+    list-style-type: square;
+    margin: 0 150px 30px 150px;
+}
+
+.faixas {
+    background-color: #3C184E;
+    color: #fff;
+    height: 350px;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    text-align: center;
+}
+.faixas_paragrafos {
+    text-align: center;
+    display: inline-block;
+    font-size: 40px;
+    width: 60%;
+    
+}
+
+.redes_sociais {
+    display: flex;
+}
+
+.redes_sociais img {
+    width: 45px;
+    margin: 0 10px;
+    
+}
